@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+.attributes-container {
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.attributes-box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attributes-icon {
+  width: 20%;
+  cursor: pointer;
+}
+
+.attributes-icon:hover {
+  width: 25%;
+  transition: 0.5s;
+}
