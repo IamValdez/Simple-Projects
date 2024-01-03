@@ -1,0 +1,9 @@
+body {
+  background: url(img/Background-bidy.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}

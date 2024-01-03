@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(10, 59, 39);
+}
+h1 {
+  font-family: arial;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.order-list {
+  margin-top: 10%;
+  display: flex;
+  color: wheat;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.order-button a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 100px;
+  background-color: #eb455f;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16.6px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.order-button a:hover {
+  opacity: 0.8;
+  background-color: rgb(28, 129, 28);
+}
+.box1 {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  cursor: pointer;
+  border: none;
+}
+
+.box1:hover {
+  opacity: 0.7;
+  background-color: aliceblue;
+}
+
+.food-name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.food-picture {
+  width: 100%;
+  margin-top: 0;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-top: 30px;
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.home-page{
+    width: 40%;
+    margin-left: 55%;
+    text-align: center;
+    margin-top: 18%;
+}
+
+.school-name{
+    font-family: arial;
+    font-weight: bold;
+    color: wheat;
+    margin-bottom: 30px;
+    font-size: 70px;
+}
