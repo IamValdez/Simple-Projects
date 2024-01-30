@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background: radial-gradient(
+      92.72% 100% at 50% 0%,
+      rgba(253, 7, 7, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    radial-gradient(92.72% 100% at 50% 0%, #ff0000 0%, #000000 100%),
+    radial-gradient(109.21% 213.32% at 100% 0%, #000000 0%, #020202 100%),
+    radial-gradient(109.21% 213.32% at 100% 0%, #000000 0%, #0f0f0f 100%),
+    linear-gradient(127.43deg, #030303 0%, #000000 100%);
+  background-blend-mode: overlay, difference, difference, exclusion,
+    normal difference, exclusion, normal;
+}
+
+.main-picture {
+  position: pixed;
+  width: 100%;
+}
+
+.strength-picture {
+  width: 100%;
+}
+
+.strength-header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: transparent;
+}
+
+.strength-text {
+  font-family: "Source Serif 4", serif;
+  color: white;
+  font-weight: bold;
+}
+
+.strength-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 10px;
+  background-color: transparent;
+}
+
+.strength-hero-box {
+  width: 100%;
+  height: 150px;
+  background-color: none;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strength-icon {
+  border-radius: 2px;
+  width: 98%;
+  height: 98%;
+  cursor: pointer;
+  box-shadow: 0 10px 10px -1px black;
+}
+
+.strength-icon:hover {
+  width: 115%;
+  height: 115%;
+  transition: 0.4s;
+}

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+.nav-scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  transition: background-image 0.9s;
+}
+
+.nav-solid {
+  background-image: linear-gradient(rgb(31, 31, 31), rgb(0, 0, 0));
+}
+
+.nav-main {
+  display: grid;
+  grid-template-columns: 150px 1fr 120px 120px 120px 120px 120px;
+}
+
+.system-logo {
+  width: 120px;
+  padding-left: 50px;
+}
+.nav-content {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content-system {
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+.system-name {
+  text-decoration: none;
+  font-family: "Source Serif 4", serif;
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.system-name:hover {
+  background: -webkit-linear-gradient(#da1c1c, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-content-name {
+  text-decoration: none;
+  font-family: "Source Serif 4", serif;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-content-name:hover {
+  background: -webkit-linear-gradient(#da1c1c, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 7px;
+  transition: 0.3s;
+  font-size: 23px;
+}
